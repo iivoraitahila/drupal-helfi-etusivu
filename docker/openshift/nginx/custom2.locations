@@ -1,3 +1,7 @@
 location = /rewritekoe { 
   rewrite ^/rewritekoe?$ /muualle break; 
 }
+
+location = /en/campaigntypo { 
+  return 301 /en/correct-campaign;
+}
