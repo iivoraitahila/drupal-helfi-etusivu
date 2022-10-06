@@ -1,0 +1,3 @@
+location = /rewritekoe { 
+  rewrite ^/rewritekoe?$ /muualle break; 
+}
