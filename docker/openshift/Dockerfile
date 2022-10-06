@@ -15,4 +15,5 @@ COPY docker/openshift/crons/ /crons
 RUN chmod +x /crons/*
 
 # Copy nginx overrides.
-COPY docker/openshift/custom.locations /etc/nginx/conf.d/custom.locations
+#COPY docker/openshift/custom.locations /etc/nginx/conf.d/custom.locations
+COPY docker/openshift/nginx/ /etc/nginx/conf.d/
